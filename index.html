@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarriorBabe - Sales Momentum Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>⚡ WarriorBabe Sales Momentum</h1>
+                <p class="subtitle">HubSpot Implementation Documentation</p>
+                <p class="implementation-by">Built by Soso Pkhakadze | Powered by Sales Momentum</p>
+            </div>
+        </header>
+
+        <!-- Stats Dashboard -->
+        <section class="stats-dashboard">
+            <div class="stat-card">
+                <div class="stat-icon">⚙️</div>
+                <div class="stat-info">
+                    <div class="stat-number">14</div>
+                    <div class="stat-label">Workflows</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📋</div>
+                <div class="stat-info">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Lists & Views</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🏷️</div>
+                <div class="stat-info">
+                    <div class="stat-number">28+</div>
+                    <div class="stat-label">Properties</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🗂️</div>
+                <div class="stat-info">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Custom Objects</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📊</div>
+                <div class="stat-info">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Pipelines</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📈</div>
+                <div class="stat-info">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Dashboards</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchBox" class="search-input" placeholder="🔍 Search workflows, properties, lists, or anything...">
+            </div>
+            <div class="filter-pills">
+                <button class="pill active" data-filter="all">All</button>
+                <button class="pill" data-filter="workflow">Workflows</button>
+                <button class="pill" data-filter="property">Properties</button>
+                <button class="pill" data-filter="list">Lists</button>
+                <button class="pill" data-filter="object">Custom Objects</button>
+                <button class="pill" data-filter="pipeline">Pipelines</button>
+                <button class="pill" data-filter="dashboard">Dashboards</button>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main class="content">
+            
+            <!-- Workflows Section -->
+            <section class="section" id="workflows-section" data-category="workflow">
+                <div class="section-header">
+                    <h2>⚙️ Workflows</h2>
+                    <span class="count-badge">10</span>
+                </div>
+                <div class="section-grid" id="workflows-grid">
+                    <!-- Workflows will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Properties Section -->
+            <section class="section" id="properties-section" data-category="property">
+                <div class="section-header">
+                    <h2>🏷️ Contact Properties</h2>
+                    <span class="count-badge">15+</span>
+                </div>
+                <div class="section-grid" id="properties-grid">
+                    <!-- Properties will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Call Properties Section -->
+            <section class="section" id="call-properties-section" data-category="property">
+                <div class="section-header">
+                    <h2>📞 Call Properties</h2>
+                    <span class="count-badge">2</span>
+                </div>
+                <div class="section-grid" id="call-properties-grid">
+                    <!-- Call Properties will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Speed to Lead Properties Section -->
+            <section class="section" id="speed-to-lead-properties-section" data-category="property">
+                <div class="section-header">
+                    <h2>⚡ Speed to Lead Properties</h2>
+                    <span class="count-badge">3</span>
+                </div>
+                <div class="section-grid" id="speed-to-lead-properties-grid">
+                    <!-- Speed to Lead Properties will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Custom Objects Section -->
+            <section class="section" id="objects-section" data-category="object">
+                <div class="section-header">
+                    <h2>🗂️ Custom Objects</h2>
+                    <span class="count-badge">2</span>
+                </div>
+                <div class="section-grid" id="objects-grid">
+                    <!-- Objects will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Pipelines Section -->
+            <section class="section" id="pipelines-section" data-category="pipeline">
+                <div class="section-header">
+                    <h2>📊 Pipelines</h2>
+                    <span class="count-badge">2</span>
+                </div>
+                <div class="section-grid" id="pipelines-grid">
+                    <!-- Pipelines will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Static Lists Section -->
+            <section class="section" id="static-lists-section" data-category="list">
+                <div class="section-header">
+                    <h2>📚 Master Static Lists</h2>
+                    <span class="count-badge">4</span>
+                </div>
+                <div class="section-grid" id="static-lists-grid">
+                    <!-- Static Lists will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Active Lists Section -->
+            <section class="section" id="active-lists-section" data-category="list">
+                <div class="section-header">
+                    <h2>📋 Active Gap Lists</h2>
+                    <span class="count-badge">6</span>
+                </div>
+                <div class="section-grid" id="active-lists-grid">
+                    <!-- Active Lists will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Smart Views Section -->
+            <section class="section" id="smart-views-section" data-category="list">
+                <div class="section-header">
+                    <h2>🎯 Priority Smart Views</h2>
+                    <span class="count-badge">5</span>
+                </div>
+                <div class="section-grid" id="smart-views-grid">
+                    <!-- Smart Views will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Dashboards Section -->
+            <section class="section" id="dashboards-section" data-category="dashboard">
+                <div class="section-header">
+                    <h2>📊 Dashboards</h2>
+                    <span class="count-badge">1</span>
+                </div>
+                <div class="section-grid" id="dashboards-grid">
+                    <!-- Dashboards will be loaded via JS -->
+                </div>
+            </section>
+
+            <!-- No Results -->
+            <div class="no-results" id="noResults">
+                <div class="no-results-icon">🔍</div>
+                <h3>No results found</h3>
+                <p>Try adjusting your search or filter</p>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ for WarriorBabe | Sales Momentum Implementation | Last Updated: December 2025</p>
+        </footer>
+    </div>
+
+    <!-- Modal for expanded details -->
+    <div class="modal" id="detailModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
